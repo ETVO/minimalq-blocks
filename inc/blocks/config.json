@@ -1,0 +1,9 @@
+{
+    "category": "MinimalQ Blocks",
+    "startCollapsed": true,
+    "blocks": [
+        {
+            "path": "hero/"
+        }
+    ]
+}

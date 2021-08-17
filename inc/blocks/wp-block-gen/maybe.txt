@@ -1,0 +1,56 @@
+switch(element.type) {
+        case 'text':
+            InputComponent = InputText;
+            return <InputText 
+                element = { element } />;
+            
+        case 'number':
+            InputComponent = InputNumber;
+            return <InputNumber 
+                element = { element } />;
+        
+        case 'number':
+            InputComponent = InputRange;
+            return <InputRange 
+                element = { element } />;
+        
+        case 'rich':
+            InputComponent = InputRichText;
+            return <InputRichText 
+                element = { element } />;
+        
+        case 'textarea':
+            return <InputTextarea 
+                element = { element } />;
+        
+        case 'image':
+            return <InputImage 
+                element = { element } />;
+        
+        case 'gallery':
+            return <InputGallery 
+                element = { element } />;
+        
+        case 'url':
+            return <InputURL 
+                element = { element } />;
+        
+        case 'check':
+            return <InputCheckbox 
+                element = { element } />;
+        
+        case 'select':
+            return <InputSelect 
+                element = { element } />;
+        
+        case 'inner':
+            return <InputInner 
+                element = { element } />;
+        
+        case 'template':
+            return <InputInnerTemplate 
+                element = { element } />;
+        
+        default:
+            return null;
+    

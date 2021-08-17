@@ -1,0 +1,7 @@
+/**
+ * Save Generator
+ */
+ 
+ function SaveGenerator() {
+    return <h1>Hello World</h1>;
+ }
